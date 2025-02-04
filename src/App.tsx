@@ -34,7 +34,6 @@ function App() {
         <p>asd1</p>
         <p>asd2</p>
         <p>asd3</p>
-        <p>asd4</p>
         <p>local history</p>
         <BoxBtn>
           <StyledBtn color={"white"} background={"green"} size={"1.7rem"}>
