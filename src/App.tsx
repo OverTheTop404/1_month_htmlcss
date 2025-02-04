@@ -29,6 +29,7 @@ function App() {
         <StyledH1>Styled Components</StyledH1>
         <span>asd</span>
         <span>123</span>
+        <span>popup</span>
         <BoxBtn>
           <StyledBtn color={"white"} background={"green"} size={"1.7rem"}>
             Button
