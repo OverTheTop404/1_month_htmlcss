@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://OverTheTop404.github.io/styled_components",
   "scripts": {
-    "predeploy": "pnpm run build",
+    "predeploy": "vite build --base=./",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
