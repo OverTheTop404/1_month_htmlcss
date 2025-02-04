@@ -30,6 +30,7 @@ function App() {
         <span>asd</span>
         <span>123</span>
         <span>login</span>
+        <span>popup</span>
         <BoxBtn>
           <StyledBtn color={"white"} background={"green"} size={"1.7rem"}>
             Button
