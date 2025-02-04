@@ -1,9 +1,12 @@
 {
-  "name": "1_month_htmlcss",
-  "private": true,
-  "version": "0.0.0",
+  "name": "styled_components",
+  "private": false,
+  "version": "0.3.0",
   "type": "module",
+  "homepage": "https://OverTheTop404.github.io/styled_components",
   "scripts": {
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
+    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.14"
