@@ -27,6 +27,8 @@ function App() {
       </Menu>
       <StyledSection>
         <StyledH1>Styled Components</StyledH1>
+        <span>asd</span>
+        <span>123</span>
         <BoxBtn>
           <StyledBtn color={"white"} background={"green"} size={"1.7rem"}>
             Button
